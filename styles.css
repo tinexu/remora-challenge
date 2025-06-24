@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top right, #331A00, #FFAA00);
+    font-family: "Georgia", cursive, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px black;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-family: "Georgia", cursive, sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#treats {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: sandybrown;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover:not(:disabled) {
+    background-color: darkorange;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+#mood {
+    font-size: 22px;
+    margin-top: 20px;
+}
